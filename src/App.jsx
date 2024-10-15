@@ -5,14 +5,12 @@ import PageNotFound from "./pages/PageNotFound";
 
 function App() {
   return (
-    <HashRouter>
-      <Routes>
-        <Route path="/" element={<Navigate to="/photos" />} />
-        <Route index path="/photos" element={<Gallery />} />
-        <Route path="/photos/:id" element={<GalleryDetails />} />
-        <Route path="*" element={<PageNotFound />} />
-      </Routes>
-    </HashRouter>
+    <Routes>
+      <Route path="/" element={<Navigate to="/photos" />} />
+      <Route index path="/photos" element={<Gallery />} />
+      <Route path="/photos/:id" element={<GalleryDetails />} />
+      <Route path="*" element={<PageNotFound />} />
+    </Routes>
   );
 }
 

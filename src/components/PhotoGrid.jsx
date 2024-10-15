@@ -13,7 +13,7 @@ function PhotoGrid({ images }) {
   return (
     <Grid container spacing={2}>
       {images?.map((image) => (
-        <Photo image={image} />
+        <Photo image={image} key={image.id} />
       ))}
     </Grid>
   );
