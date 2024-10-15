@@ -1,7 +1,7 @@
 {
   "name": "gallery-app",
   "private": true,
-  "homepage": "https://xuanvi125.github.io/IA02-Gallery",
+  "homepage": "/IA02-Gallery/#",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
